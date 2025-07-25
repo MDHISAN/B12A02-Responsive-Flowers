@@ -1,0 +1,89 @@
+/*  FONT */
+.title-font{
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+}
+.normal-font{
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+     
+}
+
+/* COMMO STYLE  */
+.display-flex{
+display: flex;
+}
+
+.title-font{
+font-size: 4rem;
+font-weight: bold;
+}
+.description{
+font-size: 1.37rem;
+font-width:600px;
+color: rgba(0, 0, 0, 0.439);
+}
+
+/* BODTY STYLE  */
+body{
+background-color: #F5F8FF;
+}
+/* nav Style */
+nav{
+display: flex;
+max-width: 1440px;
+justify-content: space-between;
+margin: auto;
+margin-bottom: 120px;
+margin-top: 40px;
+}
+.manu{
+display: flex;
+align-items: center;
+}
+nav ul {
+display: flex;
+list-style: none;
+}
+nav ul a{
+text-decoration: none;
+color: #8987A1;
+margin-right: 40px;
+}
+.icon a{
+text-decoration: none;
+color:black ;
+}
+
+/* Banner Section */
+.banner-section{
+display: flex;
+max-width: 1440px;
+max-height: 461px;
+margin: 0 auto;
+}
+.banner-content{
+width: 570px;
+height: 299px;
+position: relative;
+bottom: -65px;
+}
+
+.banner-img{
+width:570px ;
+height:355px ;
+position: relative;
+right: -290px;
+}
