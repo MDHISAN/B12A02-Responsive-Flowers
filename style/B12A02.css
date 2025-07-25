@@ -267,3 +267,273 @@ border-radius:20px ;
 .zabo-text{
   font-size: 3rem;
 }
+
+/* Join Section */
+.join-section {
+background-image: url(../assets/news-letter-bg.png);
+background-size: cover;
+height: 600px;
+margin-bottom:80px;
+}
+.join-content{
+font-size: 3rem;
+text-align: center;
+color: rgba(255, 255, 255, 0.773);
+position: relative;
+bottom: -190px;
+}
+
+.join-form input {
+padding: 18px ;
+height:44px ;
+width: 900px;
+height: 60px;
+background-color: #ffffff;
+border: none;
+position: relative;
+ }
+
+.join-form button {
+padding: 21px 65px;
+background-color: #f26522;
+color: white;
+font-size: 16px;
+border: none;
+cursor: pointer;
+position: relative;
+right: 15px;
+bottom: -2px;
+
+} 
+
+/* footer-section-style */
+
+footer{
+margin-bottom: 20px;
+}
+.footer-section{
+display: flex;
+width: 1400px;
+height: 300px;
+gap: 150px;
+margin: auto;
+justify-content: center;
+}
+.footer-logo-section{
+width: 320px;         
+}
+footer a{
+text-decoration: none;
+color: #8987A1;
+margin-top: ;
+}
+.social-media a{
+ margin-right:30px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive section*/
+@media screen and ( max-width:575px) {
+/* nav-section */
+nav ul{
+display: none;
+}
+nav {
+position: relative;
+margin: 16px 20px;
+}
+.logo{
+width: 63px;
+height: 38px;
+}
+
+ /* Banner-section */
+.banner-section{
+flex-direction: column-reverse;
+align-items: center;
+}
+
+.flower-img{
+width: 420px;
+height: 245px;
+position: relative;
+left: 1px;
+}
+.banner-img{
+ width: 420px;
+ height: 245px;
+ position: relative;
+ left: -2px;
+ }
+.banner-content{
+max-width: 365px;
+height: 147px;
+position: relative;
+top: 33px;
+}
+.banner-title{
+font-size: 1.5rem;
+font-weight: bold;
+}
+.banner-description{
+ font-size: 0.87rem;
+ width: 361px;
+}
+
+
+
+
+
+
+
+.our-plants-title{
+
+width: 393px;
+height: 117px;
+position: relative;
+right:-10px;
+
+}
+.plants-title{
+font-size:1.5rem;
+}      
+.plants-description{
+font-size: 0.8rem;
+margin-top: 10px;
+}
+.Plants-card-container{
+grid-template-columns: repeat(2,1fr);
+}
+.plants-card-content{
+align-items: center;
+height: 450px;
+}
+.plants-img{
+width: 191px;
+height: 240px;
+}
+.plants-imge-title{
+font-size: 1rem;
+font-weight: 500px;
+position: relative;
+bottom: -40px;
+}
+.plants-prise{
+font-size:1rem ;
+font-weight: bold;
+position: relative;
+bottom: -50px;
+}
+.btn{
+width: 191px;
+padding: 15px 23px;
+position: relative;
+bottom: -90px;
+}
+
+
+
+/* Flower & Plants Lover  */
+.trusted-badge{
+display: none;
+}
+.Flower-Lover-section{
+flex-direction: column;
+width: 410px;
+height:700px;
+position: relative;
+bottom: -170px;
+}
+.Lover-img{
+width: 380px;
+}
+.Flower-Lover-content{
+width: 350px;
+position: relative;
+bottom:-44px;
+}
+.lover-title{
+font-size: 1.5rem;
+font-weight: bolder;
+line-break:none;
+}
+.lover-description{
+font-size: 1rem;
+}
+/* Latest-Deals-images */
+.Latest-Deals-section{
+position: relative;
+bottom: -310px;
+}
+.Latest-Deals-title{
+width: 350px;
+}
+.title-font{
+font-size: 2rem;
+}
+.Latest-Deals-images{
+flex-direction:column ;
+}
+.ana-img{
+width: auto;
+border-radius: 20px;
+}
+.zabo-img{
+width: 360px;
+border-radius:20px ;
+}
+.zabo-text{
+  font-size: 1.2rem;
+}
+
+/* .join-content{ */
+
+.join-section{
+height: 200px;
+margin-bottom: 120px;
+position: relative;
+bottom: -280px;
+}
+.join-content{
+font-size: 0.7rem;
+align-items: center;
+text-align: center;
+justify-content: center;
+top:80px;
+}
+
+.join-form input {
+width: 200px;
+height: 20px; 
+ }
+.join-form button {
+padding:9px 10px;
+position: relative;
+bottom: -1px;
+} 
+
+/* footer-section */
+
+.footer-section{
+flex-direction: column;
+width: auto;
+height: 900px;
+position: relative;
+bottom:-200px;
+padding-left: 20px;
+justify-content: center;
+gap: 50px;
+}
+.footer-logo-section{
+width: 400px;         
+}
+
+
+}
