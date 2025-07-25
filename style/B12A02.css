@@ -147,3 +147,123 @@ cursor: pointer;
 position: relative;
 bottom: -160px;
 }
+
+.Flower-Lover-section{
+justify-content: space-between;
+display: flex;
+align-items:center;
+max-width: 1440px;
+max-height: 680px;
+margin: auto;
+margin-bottom:133px ;
+margin-top: 210px;
+}
+.Lover-img{
+width:600px ;
+
+
+}
+.Flower-Lover-content{
+width: 730px;
+height:621px ;
+ 
+
+}
+.lover-title{
+font-size:5rem;
+font-weight: bolder;
+}
+.lover-description {
+font-size:1.7rem ;
+display: flex;
+margin-top:30px ;
+gap: 25px;
+      
+ }
+.trusted-badge{
+display: block;
+width: 300px;
+display: flex;
+position:absolute;
+margin-left: 430px;
+margin-top: -653px;
+}
+
+
+
+
+
+/* Latest-Deals-style */
+.Latest-Deals-section{
+margin-bottom: 120px;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.Latest-Deals-title{
+margin: auto;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 850px;
+margin-bottom: 120px;
+}
+.Latest-Deals-images{
+align-items: center;
+justify-content: center;
+display: flex;
+margin: auto;
+gap: 20px;
+}
+.dual-imge{
+display: grid;
+gap: 20px;
+}
+
+
+
+.image-container,.imge-ana{
+position: relative; 
+display: inline-block;
+}
+
+.overlay{
+border-radius: 20px;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
+color: white; 
+font-size: 20px; 
+font-weight: bold; 
+text-align: center; 
+width: 100%; 
+padding: 10px; 
+box-sizing: border-box;
+}
+
+.ana-img{
+width: 495px;
+border-radius: 20px;
+z-index: 2;
+}
+.zabo-img{
+width: 1000px;
+border-radius:20px ;
+
+}
+ 
+.zabo-text{
+  font-size: 3rem;
+}
